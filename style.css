@@ -254,6 +254,10 @@ body.dark-mode .tanitim-sol p {
     color: #d1d5db;
 }
 
+body.dark-mode .galeri-notu {
+    color: #f9fafb;
+}
+
 body.dark-mode .form-grubu input,
 body.dark-mode .form-grubu textarea {
     background-color: #111827;
@@ -271,6 +275,13 @@ body.dark-mode .tema-butonu {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 15px;
     margin-top: 20px;
+}
+
+.galeri-notu {
+    color: #2c3e50;
+    font-weight: 600;
+    border-left: 4px solid #2ecc71;
+    padding-left: 12px;
 }
 
 .galeri-ogesi {
