@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotoğraf Galerisi - Osmaniye</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">🥜</span> Osmaniye Tanıtım <span class="logo-icon">🥜</span>
+            </a>
+            <nav class="nav-links">
+                <a href="index.html">Ana Sayfa</a>
+                <a href="kultur.html">Kültür & Lezzetler</a>
+                <a href="gezilecek.html">Gezilecek Yerler</a>
+                <a href="galeri.html" class="active">Fotoğraf Galerisi</a>
+                <button type="button" id="themeToggle" class="theme-toggle">Karanlık Mod</button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="content-card">
+            <h2>Osmaniye Fotoğraf Galerisi</h2>
+            <p>Şehrimizin tarihi, kültürel ve doğal güzelliklerine ait fotoğraflar. Büyütmek istediğiniz fotoğrafın üzerine tıklayabilirsiniz.</p>
+            
+            <div class="gallery-grid">
+                <img src="images/selale.jpg" alt="Karaçay Şelalesi" class="gallery-item">
+                <img src="images/selale.jpg" alt="Toprakkale Kalesi" class="gallery-item">
+                <img src="images/selale.jpg" alt="Karatepe Müzesi" class="gallery-item">
+                <img src="images/selale.jpg" alt="Kastabala Antik Kenti" class="gallery-item">
+                <img src="images/selale.jpg" alt="Zorkun Yaylası" class="gallery-item">
+                <img src="images/selale.jpg" alt="Osmaniye Fıstığı" class="gallery-item">
+                </div>
+        </section>
+    </main>
+
+    <div id="galleryModal" class="modal">
+        <span class="modal-close" id="modalClose">&times;</span>
+        <img class="modal-content" id="modalImg">
+        <div id="modalCaption" class="modal-caption"></div>
+    </div>
+
+    <footer class="main-footer">
+        <p>(c) 2026 Osmaniye Tanıtım Projesi. Tüm Hakları Saklıdır.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

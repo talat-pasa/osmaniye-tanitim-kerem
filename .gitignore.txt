@@ -1,0 +1,13 @@
+# İşletim sistemi çöpleri
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Kod editörü (IDE) özel klasörleri
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
