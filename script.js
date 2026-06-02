@@ -77,7 +77,7 @@ const modal = document.getElementById("galleryModal");
 const modalImg = document.getElementById("modalImg");
 const captionText = document.getElementById("modalCaption");
 const closeBtn = document.getElementById("modalClose");
-const galleryItems = document.querySelectorAll(".gallery-item");
+const galleryItems = document.querySelectorAll(".galeri-ogesi");
 
 if (galleryItems.length > 0 && modal) {
     galleryItems.forEach(item => {
