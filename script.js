@@ -22,6 +22,18 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 
+    const tanitimSlider = document.getElementById("tanitimSlider");
+
+    if (tanitimSlider) {
+        const sliderImages = tanitimSlider.querySelectorAll("img");
+        let currentSlide = 0;
+
+        setInterval(function() {
+            currentSlide = (currentSlide + 1) % sliderImages.length;
+            tanitimSlider.style.transform = `translateX(-${currentSlide * 100}%)`;
+        }, 3000);
+    }
+
     const commentForm = document.getElementById("commentForm");
 
     if (!commentForm) {
